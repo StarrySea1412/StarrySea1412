@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,50:14335f,100:3a86ff&height=180&section=header&text=StarrySea1412&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Interactive%20learning%20platforms%20%C2%B7%20Local-first%20AI%20tools&descAlignY=58&descSize=15&animation=fadeIn" width="100%" alt="header"/>
+<img src="assets/banner.svg" width="100%" alt="StarrySea1412 — Interactive learning platforms · Local-first AI tools"/>
 
 写两类东西：**浏览器里的交互式学习站**，和**本地优先的 AI 工具**（数据不出本机，全部开源）。
 
@@ -68,5 +68,5 @@
 </picture>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a86ff,50:14335f,100:0d1b2a&height=100&section=footer" width="100%" alt="footer"/>
+<img src="assets/footer.svg" width="100%" alt=""/>
 </div>
