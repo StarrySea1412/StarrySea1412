@@ -2,6 +2,8 @@
 
 写两类东西：**浏览器里的交互式学习站**，和**本地优先的 AI 工具**（数据不出本机）。
 
+*Interactive learning sites that run entirely in the browser · local-first AI tools.*
+
 ## 交互式学习平台
 
 全程浏览器内运行，全部开源。
