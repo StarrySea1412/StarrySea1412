@@ -55,13 +55,6 @@
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,fastapi,tailwind,docker,git&theme=dark" alt="tech stack"/>
 </p>
 
-## 📊 GitHub 数据
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=StarrySea1412&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="github stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=StarrySea1412&theme=tokyonight&hide_border=true" alt="streak stats"/>
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/StarrySea1412/StarrySea1412/output/github-contribution-grid-snake-dark.svg"/>
   <img src="https://raw.githubusercontent.com/StarrySea1412/StarrySea1412/output/github-contribution-grid-snake.svg" alt="contribution snake"/>
