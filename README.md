@@ -5,7 +5,7 @@
 
 做 **AI 应用与开发者工具**，也把技术原理做成可以操作的交互作品。
 
-[GitHub](https://github.com/StarrySea1412) · [Gitee](https://gitee.com/starry-sea-1412) · 广州
+[GitHub](https://github.com/StarrySea1412) · [Gitee](https://gitee.com/starry-sea-1412)
 
 ## 代表项目
 
@@ -83,6 +83,6 @@
 
 ---
 
-关注广州的 AI 应用、前端与桌面工具开发机会。欢迎通过项目 Issue 交流。
+关注 AI 应用、前端与桌面工具开发机会。欢迎通过项目 Issue 交流。
 
 <img src="assets/footer.svg" width="100%" alt="From idea to a working tool." />

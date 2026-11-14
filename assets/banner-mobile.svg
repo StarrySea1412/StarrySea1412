@@ -32,5 +32,5 @@
   <text class="primary" x="29" y="174" font-size="36" font-weight="600">让复杂流程，</text>
   <text class="primary" x="29" y="221" font-size="36" font-weight="600">成为顺手的工具。</text>
   <path d="M30 247h540" stroke="url(#line)" fill="none" />
-  <text class="secondary" x="30" y="280" font-size="24">广州 · TypeScript + Python</text>
+  <text class="secondary" x="30" y="280" font-size="24">TypeScript + Python</text>
 </svg>
