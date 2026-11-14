@@ -1,86 +1,62 @@
-<div align="center">
-
-<img src="assets/banner.svg" width="100%" alt="StarrySea1412 — Agent tooling · Local-first"/>
-
-**做本地优先、可审批、可回滚、可评测的 Agent 工具**
-
-工具调用 · 记忆 · 评测 · 降级 · 人工接管 —— 把不确定的模型能力，做成可交付的产品。
-
-</div>
-
-## 代表项目
-
-- **[Hermes Agent Workbench](https://github.com/StarrySea1412/hermes-agent-workbench)** — 本地优先 Agent 工作台：React 19 + Django 5 + Hermes 网关。模型在对话里真实调用搜索 / Python 沙盒 / 文件读写 / 文档导出，敏感调用需审批，文件写入可版本回滚。286 文件 · 21 个测试文件。
-- **[Easel](https://github.com/StarrySea1412/Easel)** — 内容创作 Agent 工作台（Apache-2.0 上游定制）：浏览器自动化、工具证据生命周期、跨重启幂等、人工接管。297 次提交，两天内 0.43.0–0.43.9 十个版本。
-- **[Hermes Watch](https://github.com/StarrySea1412/hermes-watch)** — AI 服务器巡检：规则引擎先行，LLM 只做叙事；拓扑、诊断中心、探针、对话，数据不出本机。119 文件 · 11 个测试文件 · chaos.sh 故障演练。
-- **[SmartGalleryAI](https://github.com/StarrySea1412/SmartGalleryAI)** — 本地优先智能图库：OCR + 语义检索 + 相似图。FastAPI + SQLAlchemy + alembic + docker-compose，把图片整理成可检索的个人视觉知识库。
-
-<a href="https://github.com/StarrySea1412/hermes-watch"><img src="assets/showcase/hermes-watch.png" width="100%" alt="Hermes Watch — AI 服务器巡检"/></a>
-
-## Agent 工程笔记（造物手记）
-
-运行时 · 记忆 · 评测 · 工具设计 · 通信 · 技能 · 编排 · 路由 · 巡检 —— 每篇都带可玩的交互小样。
-
-[agent-kernel](https://github.com/StarrySea1412/agent-kernel) ·
-[agent-memory](https://github.com/StarrySea1412/agent-memory) ·
-[agent-eval](https://github.com/StarrySea1412/agent-eval) ·
-[agent-design](https://github.com/StarrySea1412/agent-design) ·
-[agent-signals](https://github.com/StarrySea1412/agent-signals) ·
-[agent-skillcraft](https://github.com/StarrySea1412/agent-skillcraft) ·
-[agent-orchestrator](https://github.com/StarrySea1412/agent-orchestrator) ·
-[agent-switchboard](https://github.com/StarrySea1412/agent-switchboard) ·
-[agent-patrol](https://github.com/StarrySea1412/agent-patrol)
-
-## 交互式学习站
-
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/StarrySea1412/ai-learning-platform"><img src="assets/showcase/ai-learning.png" width="100%" alt="AI 学习平台"/></a>
-      <b><a href="https://github.com/StarrySea1412/ai-learning-platform">AI 学习平台</a></b><br/>
-      <sub>Transformer → LLM → Agent → MCP → RAG，每个概念配可交互演示</sub>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/StarrySea1412/container-learning-platform"><img src="assets/showcase/container-learning.png" width="100%" alt="容器学习平台"/></a>
-      <b><a href="https://github.com/StarrySea1412/container-learning-platform">容器学习平台</a></b><br/>
-      <sub>Docker 正课 + K8s 进阶 + 原理篇，自研浏览器内容器沙盒</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/StarrySea1412/git-learning-platform"><img src="assets/showcase/git-learning.png" width="100%" alt="Git 学习平台"/></a>
-      <b><a href="https://github.com/StarrySea1412/git-learning-platform">Git 学习平台</a></b><br/>
-      <sub>动画演示 + 实战练习 + 合并冲突模拟</sub>
-    </td>
-    <td width="50%">
-      <a href="https://gitee.com/starry-sea-1412/python-learning"><img src="assets/showcase/python-learning.png" width="100%" alt="Python 学习平台"/></a>
-      <b><a href="https://gitee.com/starry-sea-1412/python-learning">Python 学习平台</a></b><br/>
-      <sub>课程 + Playground + 谜题 + 浏览器内 Python 运行时（Gitee）</sub>
-    </td>
-  </tr>
-</table>
-
-**还有**：[Linux 学习平台](https://gitee.com/starry-sea-1412/linux-learning-platform)（170+ 命令模拟终端沙盒）· [摄影学习平台](https://gitee.com/starry-sea-1412/photography-learning)（曝光三角模拟器）· [ProjectPilot](https://github.com/StarrySea1412/utools-project-pilot)（uTools 项目管理插件）· [ClipMaster](https://github.com/StarrySea1412/clipmaster)（剪贴板管理器）
-
-## 工作项目（私有）
-
-LLM 文档生成平台（Django + Next.js + Celery，SSE 流式）· 统一身份认证（JWT/JWKS + TOTP MFA）· 统一充值网关（支付宝，幂等 + 对账）· 检索系统（React 19，8 条检测线）· 桌面自动化客户端（Electron + Playwright + MCP）
-
-<sub>私有项目，不公开代码，可面试讲解。</sub>
-
-## 🛠 技术栈
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,nextjs,docker,git&theme=dark" alt="tech stack"/>
-</p>
-
-`Python` `Django` `DRF` `FastAPI` `Celery` `PostgreSQL` · `React 19` `TypeScript` `Vite` `Ant Design` `Next.js` · `Electron` `Playwright` `MCP` `SSE` `Docker` `nginx`
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/StarrySea1412/StarrySea1412/output/github-contribution-grid-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/StarrySea1412/StarrySea1412/output/github-contribution-grid-snake.svg" alt="contribution snake"/>
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg" />
+  <img src="assets/banner.svg" width="100%" alt="starrysea — AI 应用与开发者工具" />
 </picture>
 
-<div align="center">
-<img src="assets/footer.svg" width="100%" alt=""/>
-</div>
+用 **TypeScript / Python** 做 AI 应用、桌面工具，也把技术原理做成交互作品。
+
+[GitHub](https://github.com/StarrySea1412) · [Gitee](https://gitee.com/starry-sea-1412) · 广州
+
+## 精选作品
+
+### [Hermes Agent Workbench](https://github.com/StarrySea1412/hermes-agent-workbench)
+
+把 Agent 对话、工具调用和文档操作放在同一个工作台。围绕流式会话、任务取消和受控工具审批完善使用过程。
+
+<sub>Agent 应用 · React / Django · 基于 Hermes 运行时</sub>
+
+### [ClipMaster](https://github.com/StarrySea1412/clipmaster)
+
+桌面剪贴板管理器，整理复制历史、分类和常用内容，减少反复查找与切换窗口。
+
+<sub>桌面工具 · Electron / React / SQLite</sub>
+
+### [Easel · 二次开发](https://github.com/StarrySea1412/Easel)
+
+内容与 Agent 工作台。我的改动聚焦执行回执、会话状态隔离与网关恢复，让任务进展和异常状态更清楚。
+
+<sub>基于 <a href="https://github.com/ZJU-REAL/Easel">ZJU-REAL/Easel</a> · Apache-2.0 · React / FastAPI</sub>
+
+### [Hermes Watch](https://github.com/StarrySea1412/hermes-watch)
+
+集中查看服务器状态、告警和拨测结果，将异常发现、诊断与受控处理组织到一个界面。
+
+<sub>运维工作台 · FastAPI / React / Go</sub>
+
+## 笔记与交互实验
+
+把工程问题写成文章，也做成可以操作的小样。
+
+[Agent 运行时](https://github.com/StarrySea1412/agent-kernel) · [记忆与上下文](https://github.com/StarrySea1412/agent-memory) · [Agent 评测](https://github.com/StarrySea1412/agent-eval)
+
+<details>
+<summary>更多作品与学习记录</summary>
+
+**工具**
+
+- [SmartGalleryAI](https://github.com/StarrySea1412/SmartGalleryAI)：本地图片管理与 OCR 全文搜索 MVP。
+- Seewrok：本地项目与 Git 工作台，包含变更块操作、冲突处理和开发服务管理。
+
+**Agent 工程笔记**
+
+[工具设计](https://github.com/StarrySea1412/agent-design) · [通信](https://github.com/StarrySea1412/agent-signals) · [技能](https://github.com/StarrySea1412/agent-skillcraft) · [编排](https://github.com/StarrySea1412/agent-orchestrator) · [路由](https://github.com/StarrySea1412/agent-switchboard) · [巡检](https://github.com/StarrySea1412/agent-patrol)
+
+**交互学习作品**
+
+[AI 概念](https://github.com/StarrySea1412/ai-learning-platform) · [Git 模拟与练习](https://github.com/StarrySea1412/git-learning-platform) · [容器与 Kubernetes](https://github.com/StarrySea1412/container-learning-platform) · [Python](https://gitee.com/starry-sea-1412/python-learning) · [Linux 命令](https://gitee.com/starry-sea-1412/linux-learning-platform) · [摄影](https://gitee.com/starry-sea-1412/photography-learning)
+
+</details>
+
+---
+
+关注广州的 AI 应用、前端与桌面工具开发机会。欢迎通过项目 Issue 交流。

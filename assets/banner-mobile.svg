@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">starrysea — AI 应用与开发者工具</title>
+  <desc id="desc">AI 应用与开发者工具。让复杂流程，成为顺手的工具。</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#50d6c8" stop-opacity=".02" />
+      <stop offset="1" stop-color="#6ca8ff" stop-opacity=".12" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#50bdb4" stop-opacity=".7" />
+      <stop offset="1" stop-color="#659ddc" stop-opacity=".2" />
+    </linearGradient>
+    <style>
+      .base { fill: #f6f8fb; stroke: #d8e1eb; }
+      .primary { fill: #132334; }
+      .secondary { fill: #586b7e; }
+      .eyebrow { fill: #277c85; }
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif; }
+      .mono { font-family: 'Cascadia Code', Consolas, monospace; }
+      @media (prefers-color-scheme: dark) {
+        .base { fill: #101823; stroke: #293a4d; }
+        .primary { fill: #e8f0f8; }
+        .secondary { fill: #9bafc2; }
+        .eyebrow { fill: #74d8d0; }
+      }
+    </style>
+  </defs>
+  <rect class="base" x="1" y="1" width="598" height="298" rx="16" />
+  <rect x="1" y="1" width="598" height="298" rx="16" fill="url(#wash)" />
+  <text class="eyebrow" x="30" y="43" font-size="24" font-weight="600">AI 应用 / 开发者工具</text>
+  <text class="primary" x="29" y="111" font-size="52" font-weight="700" letter-spacing="1.5">starrysea</text>
+  <text class="primary" x="29" y="174" font-size="36" font-weight="600">让复杂流程，</text>
+  <text class="primary" x="29" y="221" font-size="36" font-weight="600">成为顺手的工具。</text>
+  <path d="M30 247h540" stroke="url(#line)" fill="none" />
+  <text class="secondary" x="30" y="280" font-size="24">广州 · TypeScript + Python</text>
+</svg>
