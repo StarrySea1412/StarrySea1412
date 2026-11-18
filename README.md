@@ -7,13 +7,13 @@
 
 ## 造物手记 · 系列
 
-把「Agent 是怎么干活的」一件件拆开看——**17 册 VOL + 5 部手册 + 5 个番外**，全部零依赖中文单页、可玩可重放：[全系列目录 →](https://starrysea1412.github.io/makers-notebook/)
+把「Agent 是怎么干活的」一件件拆开看——**18 册 VOL + 5 部手册 + 5 个番外**，全部零依赖中文单页、可玩可重放：[全系列目录 →](https://starrysea1412.github.io/makers-notebook/)
 
 | 最近三册 | 解剖的标本 |
 | --- | --- |
+| [VOL.18 给 RAG 装一条证据链](https://starrysea1412.github.io/rag-evidence-chain/) | 315 行混合检索 · 32 个测试 · 词法分逐位对拍 |
 | [VOL.17 把危险关进笼子](https://starrysea1412.github.io/agent-sandbox/) | 执行边界三件套 471 行 · 17 个测试 |
 | [VOL.16 给 Agent 装一块驾驶舱](https://starrysea1412.github.io/agent-cockpit/) | hermes-agent-workbench · 179 个测试 |
-| [VOL.15 给 Agent 发一套趁手的工具](https://starrysea1412.github.io/agent-toolkit/) | 653 行 MCP server · 13 个工具 |
 
 手册部：[相机](https://starrysea1412.github.io/camera-primer/) · [镜头](https://starrysea1412.github.io/lens-primer/) · [网络](https://starrysea1412.github.io/network-primer/) · [Git 托管](https://starrysea1412.github.io/git-primer/) · [K8s](https://starrysea1412.github.io/k8s-primer/)
 
